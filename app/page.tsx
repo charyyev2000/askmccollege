@@ -9,11 +9,11 @@ import { CircleUser, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-interface Message {
-  id: number;
-  content: string;
-  role: "user" | "system";
-}
+// interface Message {
+//   id: number;
+//   content: string;
+//   role: "user" | "system";
+// }
 
 const Home = () => {
   const [mounted, setMounted] = useState(false);
@@ -23,8 +23,8 @@ const Home = () => {
   if (!mounted) <></>;
 
   const {
-    append,
-    isLoading,
+    // append,
+    // isLoading,
     messages,
     input,
     handleInputChange,
