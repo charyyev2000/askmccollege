@@ -86,7 +86,7 @@ QUESTION: ${latestMessage}
     });
 
     return result.toDataStreamResponse();
-  } catch (error: any) {
-    throw new Error("Somewthing wrong with POST request", error);
+  } catch (error) {
+    console.log("Something went wrong with POST request", error);
   }
 }
