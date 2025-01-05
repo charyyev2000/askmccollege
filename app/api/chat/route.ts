@@ -1,3 +1,5 @@
+"use server";
+
 import { openai } from "@ai-sdk/openai";
 import { DataAPIClient } from "@datastax/astra-db-ts";
 import { streamText } from "ai";

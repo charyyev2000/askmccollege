@@ -1,3 +1,5 @@
+"use server";
+
 import { DataAPIClient } from "@datastax/astra-db-ts";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import OpenAI from "openai";
