@@ -1,3 +1,5 @@
+"use server";
+
 import Script from "next/script";
 
 import "dotenv/config";
