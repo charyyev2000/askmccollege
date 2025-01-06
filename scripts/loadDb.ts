@@ -9,7 +9,7 @@ import { JSONLoader } from "langchain/document_loaders/fs/json";
 
 import "dotenv/config";
 
-type SimilarityMetric = "dot_product" | "cosine" | "euclidean";
+// type SimilarityMetric = "dot_product" | "cosine" | "euclidean";
 
 console.log("loadDb is working");
 

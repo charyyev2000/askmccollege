@@ -22,14 +22,7 @@ const Home = () => {
   }, []);
   if (!mounted) <></>;
 
-  const {
-    // append,
-    // isLoading,
-    messages,
-    input,
-    handleInputChange,
-    handleSubmit,
-  } = useChat();
+  const { messages, input, handleInputChange, handleSubmit } = useChat();
 
   const scrollRef = useRef<HTMLDivElement>(null);
 

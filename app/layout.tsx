@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
+// import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "dotenv/config";
 
-const { GA_PUBLIC_MEASUREMENT_ID } = process.env;
+// const { GA_PUBLIC_MEASUREMENT_ID } = process.env;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,8 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      {/* <GoogleAnalytics /> */}
-      <GoogleAnalytics gaId={GA_PUBLIC_MEASUREMENT_ID as string} />
+      {/* <GoogleAnalytics gaId={GA_PUBLIC_MEASUREMENT_ID as string} /> */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
